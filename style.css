@@ -1,0 +1,47 @@
+body {
+    font-family: "Roboto", "Helvetica";
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 12px;
+}
+
+a.header-left {
+    
+    font-size: 24px;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+.header-right {
+
+    display: flex;
+    padding: 20px;
+    /*text-align: right;
+    margin: 12px;
+    padding: 20px;*/
+    
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-bar {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.logo-bar-left {
+    color: #f9faf8;
+}
+
+.logo-bar-right {
+    
+}
