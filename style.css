@@ -31,17 +31,80 @@ a.header-left {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo-bar {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-bar-left {
     color: #f9faf8;
+    padding: 20px;
 }
 
 .logo-bar-right {
-    
+    padding: 20px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.subtext {
+    font-size: 20px;
+}
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.info-box img {
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+figure {
+    text-align: center;
+
+}
+figcaption {
+    font-size: 14px;
+}
+
+.quote-box {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: dimgray;
+}
+
+.mandela {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
